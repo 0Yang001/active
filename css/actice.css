@@ -69,10 +69,10 @@ a:hover{
 	position: fixed;
 	top: 45%;
 	left: 40%;
-	border: 1px solid #ccc;
 	background-color: white;	
 	text-align: center;
 	padding-top: 30px;
+	border-radius: 5px;
 }
 .woring span{
 	font-size: 24px;
