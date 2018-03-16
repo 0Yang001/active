@@ -293,7 +293,7 @@ a:hover{
 	}
 	.all .content .content-right{
 		float: none;
-		margin-left: 2%;
+		margin: 0 auto;
 		height: auto;
 		margin-bottom: 50px;
 	}
