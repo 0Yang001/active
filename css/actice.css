@@ -61,6 +61,33 @@ a:hover{
 	border-radius: 5px;
 	cursor: pointer;
 }
+.woring{
+	display: none;
+	width: 350px;
+	height: 200px;
+	z-index: 99;
+	position: fixed;
+	top: 45%;
+	left: 40%;
+	border: 1px solid #ccc;
+	background-color: white;	
+	text-align: center;
+	padding-top: 30px;
+}
+.woring span{
+	font-size: 24px;
+}
+.woring button{
+	border: none;
+	text-align: center;
+	width: 120px;
+	line-height: 36px;
+	background-color: #62b651;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 60px;
+}
 .header .header-right .three .ming:hover{
 	background-color: #6CD070;
 }
@@ -247,6 +274,16 @@ a:hover{
 	font-size: 16px;
 	border-radius: 5px;
 }
+.all-rgb{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 88;
+    display: none;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+}
 @media only screen and (max-width:600px ) {
 	.all{
 		width: auto;
@@ -309,7 +346,15 @@ a:hover{
 	.header .header-right .three .baoming{
 		border-radius: 0;
 	}
-	
+	.woring{
+		width: 250px;
+		height: 150px;
+		left: 20%;
+		padding-top: 15px;
+	}
+	.woring span{
+		font-size: 16px;
+	}
 }
 
 

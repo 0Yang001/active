@@ -10,7 +10,7 @@ $(function(){
 			$('.piao').hide();
 			$('.bao').show();
 		}else{
-			alert('请选择想要购买的票种！')
+			$('.woring,.all-rgb').show();
 		}
 	})
 	$('.reset').click(function(){
@@ -18,7 +18,10 @@ $(function(){
 		$('.bao').hide();
 		$('input').val('');
 	})
-	
+	$('.woring').click(function(){
+		$(this).hide();
+		$('.all-rgb').hide();
+	})
 	var map = new BMap.Map("allmap");
 	var point = new BMap.Point(116.417854,39.921988);
 	var marker = new BMap.Marker(point);  // 创建标注
